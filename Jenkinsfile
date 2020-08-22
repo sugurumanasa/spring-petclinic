@@ -1,5 +1,5 @@
 node {
-    stage('scm'){
+    stage('scm') {
         git 'https://github.com/sugurumanasa/spring-petclinic.git'
     }
 }
